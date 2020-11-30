@@ -1,7 +1,8 @@
 package pyth;
+
 import java.lang.Math;
 
-public class Pythagorean{
+public class Pythagorean {
 	public double calculateHypotenuse(int legA, int legB) {
 		int aSquare = legA * legA;
 		int bSquare = legB * legB;
