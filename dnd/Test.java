@@ -23,13 +23,9 @@ public class Test {
 
 		int samuraiCount = Samurai.howMany();
 
-		int wizHealth = wiz.getHealth();
-		int ninHealth = nin.getHealth();
-		int samHealth = sam.getHealth();
-
-		System.out.println(wizHealth);
-		System.out.println(ninHealth);
-		System.out.println(samHealth);
+		System.out.println(wiz.getHealth());
+		System.out.println(nin.getHealth());
+		System.out.println(sam.getHealth());
 		System.out.println(samuraiCount);
 	}
 }
